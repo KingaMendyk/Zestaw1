@@ -9,3 +9,4 @@ for i in range(3):
     response = requests.get(url)
     page = response.json()["archived_snapshots"]["closest"]["url"]
     webbrowser.open(page)
+
